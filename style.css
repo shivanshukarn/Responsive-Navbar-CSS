@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.active{
+    color: rgb(249 115 22);
+}
+nav{
+    padding: .5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: sans-serif;
+}
+nav a{
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+nav ul li{
+    margin-top: 0.25rem;
+    list-style: none;
+    margin-right: 1rem;
+}
+.logo{
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+.logo h2 {   
+    font-size: 1.40rem;
+    font-weight: 700;
+}
+nav a:hover {
+    color: rgb(249 115 22);
+    border-bottom: 2px solid #fff;
+}
+nav form{
+    margin-top: 0.25rem;
+}
+nav form input{
+    padding: 5px;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid rgb(249 115 22);
+}
+nav form button{
+    padding: 6px;
+    border-radius: 8px;
+    border: 2px solid rgb(249 115 22);
+}
+nav form button:hover{
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+}
+nav .menu{
+    display: none;
+    margin-right: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    color: #fff;
+}
+nav menu i{
+    padding: 0.25rem;
+    border: 2px solid #fff;
+}
+main{
+    margin: 1rem;
+    font-family: sans-serif;
+}
+main h2,p{
+    padding: 5px;
+}
+
+@media (max-width: 670px) {
+    .hidden{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+    nav ul{
+        display: block;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    nav ul li{
+        margin-top: 0.8rem;
+    }
+    nav .menu{
+        display: block;
+    }
+    nav form{
+        margin-top: 1rem;
+        text-align: center;
+    }
+}
