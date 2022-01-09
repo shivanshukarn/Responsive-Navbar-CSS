@@ -1,4 +1,4 @@
-console.log("Hello to console")
+console.log("Welcome to console")
 
 const navMore = document.getElementById('navMore')
 const navUl = document.getElementById('navUl')
