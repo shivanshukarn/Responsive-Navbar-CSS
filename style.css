@@ -66,10 +66,10 @@ nav form button:hover{
 nav .menu{
     display: none;
     margin-right: .5rem;
-    margin-top: .5rem;
+    margin-top: .25rem;
     margin-bottom: .5rem;
     position: absolute;
-    top: 0.5rem;
+    top: 1rem;
     right: 0.5rem;
     color: #fff;
 }
